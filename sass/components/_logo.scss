@@ -1,0 +1,16 @@
+.logo {
+  font-weight: $fontWeightBold;
+  font-size: 26px;
+  font-family: $fontFamilySecondary;
+  line-height: 1.19;
+  color: $blackColorPrimary;
+  text-decoration: none;
+}
+
+.logo__dark {
+  color: $accentColor;
+}
+
+.page-header__logo {
+  margin-right: 91px;
+}

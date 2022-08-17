@@ -1,0 +1,40 @@
+.features {
+  @extend %list;
+  display: flex;
+  gap: 30px;
+}
+.section__title--features {
+  @extend %visually-hidden;
+}
+
+.feature__icons {
+  width: 270px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $colorSection;
+  border-radius: 4px;
+}
+
+.feature__icons--margin {
+  margin-bottom: 30px;
+}
+
+.feature__icon {
+  width: 70px;
+  height: 70px;
+}
+
+.features__title {
+  margin-bottom: 10px;
+  font-size: $fontSizePrimary;
+  line-height: 1.14;
+  color: $colorTextTitle;
+  text-transform: uppercase;
+}
+
+.features__text {
+  margin-bottom: 0;
+  line-height: 1.71;
+}
