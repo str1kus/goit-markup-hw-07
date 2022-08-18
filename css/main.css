@@ -11,7 +11,7 @@
   overflow: hidden;
 }
 
-.subnav, .product__cards, .footer-icons, .footer-contacts, .clients, .team__icons, .team, .about, .features, .nav-contacts, .site-nav {
+.filter, .product__cards, .footer-icons, .footer-contacts, .clients, .team__icons, .team, .about, .features, .nav-contacts, .site-nav {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -476,7 +476,7 @@ button {
   gap: 30px;
 }
 
-.feature__icons {
+.feature__wrapper {
   width: 270px;
   height: 120px;
   display: flex;
@@ -486,7 +486,7 @@ button {
   border-radius: 4px;
 }
 
-.feature__icons--margin {
+.feature__wrapper--margin {
   margin-bottom: 30px;
 }
 
@@ -835,20 +835,20 @@ button {
   line-height: 1.88;
 }
 
-.subnav {
+.filter {
   display: flex;
   justify-content: center;
 }
 
-.subnav--position {
+.filter--position {
   margin-bottom: 50px;
 }
 
-.subnav__item:not(:last-child) {
+.filter__item:not(:last-child) {
   margin-right: 8px;
 }
 
-.subnav__button {
+.filter__button {
   padding: 6px 22px;
   font-family: inherit;
   font-weight: 500;
@@ -862,12 +862,12 @@ button {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.subnav__button--primary {
+.filter__button--primary {
   color: #212121;
   background-color: #f5f4fa;
 }
 
-.subnav__button:hover, .subnav__button:focus {
+.filter__button:hover, .filter__button:focus {
   color: #ffffff;
   background-color: #2196f3;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 3px 1px rgba(0, 0, 0, 0.1);

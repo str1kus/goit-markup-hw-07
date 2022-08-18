@@ -2,24 +2,24 @@
   @extend %visually-hidden;
 }
 
-.subnav {
+.filter {
   @extend %list;
   display: flex;
 
   justify-content: center;
 }
 
-.subnav--position {
+.filter--position {
   margin-bottom: 50px;
 }
 
-.subnav__item {
+.filter__item {
   &:not(:last-child) {
     margin-right: 8px;
   }
 }
 
-.subnav__button {
+.filter__button {
   padding: 6px 22px;
   font-family: inherit;
   font-weight: $fontWeightMedium;
@@ -34,12 +34,12 @@
     box-shadow 250ms $timingFunction;
 }
 
-.subnav__button--primary {
+.filter__button--primary {
   color: $colorTextTitle;
   background-color: $colorSection;
 }
 
-.subnav__button {
+.filter__button {
   &:hover,
   &:focus {
     color: $whiteColorPrimary;

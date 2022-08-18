@@ -7,7 +7,7 @@
   @extend %visually-hidden;
 }
 
-.feature__icons {
+.feature__wrapper {
   width: 270px;
   height: 120px;
   display: flex;
@@ -17,7 +17,7 @@
   border-radius: 4px;
 }
 
-.feature__icons--margin {
+.feature__wrapper--margin {
   margin-bottom: 30px;
 }
 
